@@ -1,4 +1,4 @@
-# Deno template for .fensak repositories
+# JavaScript and Jest template for .fensak repositories
 
 Use this template to create a JavaScript and [Jest](https://jestjs.io/) based `.fensak` repository in your Organization
 with a recommended project configuration for writing and testing rules. Feel free to clone this repo and make any

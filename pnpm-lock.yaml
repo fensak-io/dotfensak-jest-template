@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   "@fensak-io/reng":
-    specifier: ^1.0.7
-    version: 1.0.7
+    specifier: ^1.1.2
+    version: 1.1.2
   "@jest/globals":
     specifier: ^29.7.0
     version: 29.7.0
@@ -1649,10 +1649,10 @@ packages:
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     dev: true
 
-  /@fensak-io/reng@1.0.7:
+  /@fensak-io/reng@1.1.2:
     resolution:
       {
-        integrity: sha512-7wPbjzJUZ6qC9QdKNcUawFLd9ckGV5JxoXMAMob2gzkcaWXGFUq4/AecfLSnHEKYXf7zOrzzWQ2tqn6ETWs5aw==,
+        integrity: sha512-rGWP3CavRc7VJLD8PrOlwnS8O8knm4G/QGD12eq1RoGTuhE4+oXMDYgcCT5Tpp9CiUjdNn+vtgbfKwaHIRf+Og==,
       }
     dependencies:
       "@babel/core": 7.23.2

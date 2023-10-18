@@ -1,6 +1,6 @@
 import fs from "node:fs";
-import { dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { expect, test } from "@jest/globals";
 import {

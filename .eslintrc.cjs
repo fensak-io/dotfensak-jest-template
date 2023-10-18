@@ -3,7 +3,7 @@ module.exports = {
   extends: ["eslint:recommended", "prettier"],
   parserOptions: {
     sourceType: "module",
-    allowImportExportEverywhere: true
+    allowImportExportEverywhere: true,
   },
   env: {
     browser: true,

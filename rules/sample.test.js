@@ -9,6 +9,7 @@ import {
   RuleFnSourceLang,
   RuleLogMode,
   runRule,
+  emptyChangeSetMetadata,
 } from "@fensak-io/reng";
 import { Octokit } from "@octokit/rest";
 
@@ -28,7 +29,7 @@ test("No changes should be approved", async () => {
   const result = await runRule(
     ruleFn,
     [],
-    { sourceBranch: "foo", targetBranch: "bar" },
+    emptyChangeSetMetadata,
     opts,
   );
   expect(result.approve).toBe(true);
